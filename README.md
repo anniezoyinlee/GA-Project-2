@@ -5,33 +5,8 @@ I.D.K.W.I.W (I don't know what I want)
 
 [I.D.K.W.I.W](https//:#)
 
-## Description
+## Project Description
 This app is for people don't know what they want, perhaps can give user ideas while they generate food/drink/activity.
-
-## Wireframes
-Home page
-![image](https://imgur.com/rOwTS8J.jpg)
-To Food page
-![image](https://imgur.com/ZJzBNpX.jpg)
-To Drink page
-![image](https://imgur.com/qRCOQX3.jpg)
-To Do page
-![image](https://imgur.com/tdwn28G.jpg)
-
-## User Stories
-#### MVP Goals
-* As a player, I want to see a home page with links for 'To Eat', 'To Drink', and 'To Do'
-* As a player, I want to click on one of the links and go to their pages
-* As a player, I want to see a placeholder image and food/drink names on to eat/to drink page
-* As a player, I want to see a placeholder activity name on to do page
-* As a player, I want to see second title changes by to eat/to drink/to do pages
-* As a player, I want to see a generate button and home button on to eat/to drink/to do pages
-* As a player, I want to click on generate button and see a to eat/to drink/to do suggestion
-* As a player, I want to click on the home button and go back to the home page
-
-#### Stretch Goals
-* As a player, I would like to check food by category.
-* As a player, I would like to check drinks by category.
 
 ## API Example
 #### The Meal DB
@@ -183,3 +158,28 @@ App - Render header with Subtitle and Catagory links
       - ActivityDetails - render content from API
     - HomeBtn - button to go to home page
     - GenerateBtn - button to generate content from API
+
+## Wireframes
+Home page
+![image](https://imgur.com/rOwTS8J.jpg)
+To Food page
+![image](https://imgur.com/ZJzBNpX.jpg)
+To Drink page
+![image](https://imgur.com/qRCOQX3.jpg)
+To Do page
+![image](https://imgur.com/tdwn28G.jpg)
+
+## User Stories
+#### MVP Goals
+* As a player, I want to see a home page with links for 'To Eat', 'To Drink', and 'To Do'
+* As a player, I want to click on one of the links and go to their pages
+* As a player, I want to see a placeholder image and food/drink names on to eat/to drink page
+* As a player, I want to see a placeholder activity name on to do page
+* As a player, I want to see second title changes by to eat/to drink/to do pages
+* As a player, I want to see a generate button and home button on to eat/to drink/to do pages
+* As a player, I want to click on generate button and see a to eat/to drink/to do suggestion
+* As a player, I want to click on the home button and go back to the home page
+
+#### Stretch Goals
+* As a player, I would like to check food by category.
+* As a player, I would like to check drinks by category.
