@@ -31,6 +31,7 @@ function App() {
       </header>
       <main>
         <Route path="/home" excat component={Links} />
+        {/* As a player, I want to see a home page with links for 'To Eat', 'To Drink', and 'To Do' */}
         <Route path="/to-eat" exact component={ToEat} />
         <Route path="/to-drink" exact component={ToDrink} />
         <Route path="/to-do" exact component={ToDo} />
