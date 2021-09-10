@@ -6,7 +6,7 @@ IDKWIW (I don't know what I want)
 [IDKWIW](https//:#)
 
 ## Project Description
-My app is called IDKWIW, it's for people who don't know what they want, on the home page there are three links for 'To Eat' 'To Drink', and 'To Do'. When the user clicks on one of the links they would go to a page to generate the food/drink/activity through APIs. Perhaps this app can give users ideas while they don't know what they want.
+My app is called IDKWIW, it's for people who don't know what they want. On the home page, there are three links for 'To Eat' 'To Drink', and 'To Do', when the user clicks on one of the links they would go to a page to generate the food/drink/activity through APIs. Perhaps this app can give users ideas while they don't know what they want.
 
 ## API Example
 #### The Meal DB
