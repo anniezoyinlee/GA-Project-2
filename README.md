@@ -1,12 +1,12 @@
 # General Assembly - Project 2
 
 ## Project Name
-I.D.K.W.I.W (I don't know what I want)
+IDKWIW (I don't know what I want)
 
-[I.D.K.W.I.W](https//:#)
+[IDKWIW](https//:#)
 
 ## Project Description
-This app is for people don't know what they want, perhaps can give user ideas while they generate food/drink/activity.
+My app is called IDKWIW, it's for people who don't know what they want, on the home page there are three links for 'To Eat' 'To Drink', and 'To Do'. When the user clicks on one of the links they would go to a page to generate the food/drink/activity through APIs. Perhaps this can give users ideas while they don't know what they want.
 
 ## API Example
 #### The Meal DB
