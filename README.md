@@ -175,12 +175,12 @@ To Do page
 ## User Stories
 #### MVP Goals
 * As a player, I want to see a home page with links for 'To Eat', 'To Drink', and 'To Do'
-* As a player, I want to click on one of the links and go to their pages
+* As a player, I want to click on each of the links and go to their page
 * As a player, I want to see a placeholder image and food/drink names on to eat/to drink page
 * As a player, I want to see a placeholder activity name on to do page
 * As a player, I want to see second title changes by to eat/to drink/to do pages
 * As a player, I want to see a generate button and home button on to eat/to drink/to do pages
-* As a player, I want to click on generate button and see a to eat/to drink/to do suggestion
+* As a player, I want to click on generate button and see a new to eat/to drink/to do suggestion
 * As a player, I want to click on the home button and go back to the home page
 
 #### Stretch Goals
