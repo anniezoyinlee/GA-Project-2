@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 function Buttons({thing}) {
   return (
+    // As a player, I want to see a generate button and home button on to eat/to drink/to do pages
     <div className="btnBox">
       <button>Generate a {thing}</button>
       <button><Link to={"/home"}>Home</Link></button>
