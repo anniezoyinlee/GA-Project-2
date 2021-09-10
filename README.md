@@ -10,8 +10,8 @@ My app is called IDKWIW, it's for people who don't know what they want, on the h
 
 ## API Example
 #### The Meal DB
-https://www.themealdb.com/api.php
-https://www.themealdb.com/api/json/v1/1/random.php
+[The Meal DB](https://www.themealdb.com/api.php)
+[API Json](https://www.themealdb.com/api/json/v1/1/random.php)
 {
   "meals": [
     {
@@ -73,8 +73,8 @@ https://www.themealdb.com/api/json/v1/1/random.php
 }
 
 #### The Cocktail DB
-https://www.thecocktaildb.com/api.php
-https://www.thecocktaildb.com/api/json/v1/1/random.php
+[The Cocktail DB](https://www.thecocktaildb.com/api.php)
+[API Json](https://www.thecocktaildb.com/api/json/v1/1/random.php)
 {
   "drinks": [
     {
@@ -134,7 +134,7 @@ https://www.thecocktaildb.com/api/json/v1/1/random.php
 }
 
 #### Bored API
-https://www.boredapi.com/
+[Bored API](https://www.boredapi.com/)
 {
   "activity": "Donate blood at a local blood center",
   "type": "charity",
