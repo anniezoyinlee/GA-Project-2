@@ -5,7 +5,7 @@ import Buttons from '../Buttons/Buttons'
 function ToDrink() {
   let drink = 'drink'
   return (
-    <div>
+    <div className='page'>
       <Route path="/to-drink" excat render={() => 
           <Buttons thing={drink}/>
       } />

@@ -49,3 +49,20 @@ a:hover {
 .btnBox button {
   font-size: 2.5em;
 }
+
+.detail {
+  border: black solid 1px;
+  height: 200px;
+  width: 600px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.detail img {
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+}
