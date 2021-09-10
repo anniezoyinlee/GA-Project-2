@@ -4,7 +4,7 @@ import Buttons from '../Buttons/Buttons'
 import ToDoDetail from '../ToDoDetail/ToDoDetail'
 
 function ToDo() {
-  let activity = 'activity'
+  let activity = 'an activity'
   const [toDo, setToDo] = useState([
     {
     "activity": "Learn React"
@@ -21,10 +21,10 @@ function ToDo() {
   return (
     <Route path="/to-do" excat render={() => (
       <div className='page'>
-        {toDo.map((activity, idx) => {
+        {toDo.map((activityObj, idx) => {
           return(
             <ToDoDetail 
-            activity={activity}
+            toDo={activityObj}
             key={idx}
             />
           )

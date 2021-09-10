@@ -5,6 +5,8 @@ import ToDrinkDetail from '../ToDrinkDetail/ToDrinkDetail'
 
 function ToDrink() {
   let drink = 'drink'
+ 
+
   return (
     <Route path="/to-drink" excat render={() => (
       <div className='page'>
