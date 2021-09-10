@@ -136,7 +136,7 @@ My app is called IDKWIW, it's for people who don't know what they want. On the h
 }
 ```
 #### Bored API
-[Bored API](https://www.boredapi.com/)
+[Bored API](https://www.boredapi.com/documentation)
 ```json
 {
   "activity": "Donate blood at a local blood center",
