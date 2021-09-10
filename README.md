@@ -9,9 +9,13 @@ I.D.K.W.I.W (I don't know what I want)
 This app is for people don't know what they want, perhaps can give user ideas while they generate food/drink/activity.
 
 ## Wireframes
+Home page
 ![image](https://imgur.com/rOwTS8J.jpg)
+To Food page
 ![image](https://imgur.com/ZJzBNpX.jpg)
+To Drink page
 ![image](https://imgur.com/qRCOQX3.jpg)
+To Do page
 ![image](https://imgur.com/tdwn28G.jpg)
 
 ## User Stories
