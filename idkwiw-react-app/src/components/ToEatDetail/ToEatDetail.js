@@ -1,11 +1,12 @@
 import React from 'react';
 
-function ToDoDetail({data}) {
+function ToEatDetail({data}) {
   return (
     <div className='detail'>
+      <img />
       <h2>{data}</h2>
     </div>
   );
 }
 
-export default ToDoDetail;
+export default ToEatDetail;

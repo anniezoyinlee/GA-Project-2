@@ -1,11 +1,12 @@
 import React from 'react';
 
-function ToDoDetail({data}) {
+function ToDrinkDetail({data}) {
   return (
     <div className='detail'>
+      <img />
       <h2>{data}</h2>
     </div>
   );
 }
 
-export default ToDoDetail;
+export default ToDrinkDetail;
