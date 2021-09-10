@@ -8,16 +8,24 @@ import ToDo from '../ToDo/ToDo'
 
 function App() {
   let home = '...'
-  let todo = 'To Do'
+  let toEat = 'To Eat'
+  let toDrink = 'To Drink'
+  let toDo = 'To Do'
   return (
     <div className="container">
       <header>
         <h1>I.D.K.W.I.W</h1>
-        <Route path="/" excat render={() => 
+        <Route path="/ " excat render={() => 
           <Subtitle cat={home} />
         } />
-        <Route path="/ToDo" excat render={() => 
-          <Subtitle cat={todo} />
+        <Route path="/to-eat" excat render={() => 
+          <Subtitle cat={toEat} />
+        } />
+        <Route path="/to-drink" excat render={() => 
+          <Subtitle cat={toDrink} />
+        } />
+        <Route path="/to-do" excat render={() => 
+          <Subtitle cat={toDo} />
         } />
       </header>
       <main>
