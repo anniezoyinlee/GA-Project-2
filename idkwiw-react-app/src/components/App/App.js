@@ -7,6 +7,7 @@ import ToDrink from '../ToDrink/ToDrink'
 import ToDo from '../ToDo/ToDo'
 
 function App() {
+  // subtitle showing different at the end in different pages
   let home = '...'
   let toEat = 'To Eat'
   let toDrink = 'To Drink'
