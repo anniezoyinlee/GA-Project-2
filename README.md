@@ -12,6 +12,7 @@ My app is called IDKWIW, it's for people who don't know what they want, on the h
 #### The Meal DB
 [The Meal DB](https://www.themealdb.com/api.php)
 [API Json](https://www.themealdb.com/api/json/v1/1/random.php)
+```json
 {
   "meals": [
     {
@@ -71,10 +72,11 @@ My app is called IDKWIW, it's for people who don't know what they want, on the h
     }
   ]
 }
-
+```
 #### The Cocktail DB
 [The Cocktail DB](https://www.thecocktaildb.com/api.php)
 [API Json](https://www.thecocktaildb.com/api/json/v1/1/random.php)
+```json
 {
   "drinks": [
     {
@@ -132,9 +134,10 @@ My app is called IDKWIW, it's for people who don't know what they want, on the h
     }
   ]
 }
-
+```
 #### Bored API
 [Bored API](https://www.boredapi.com/)
+```json
 {
   "activity": "Donate blood at a local blood center",
   "type": "charity",
@@ -144,7 +147,7 @@ My app is called IDKWIW, it's for people who don't know what they want, on the h
   "key": "6509779",
   "accessibility": 0.35
 }
-
+```
 ## Component Hierarchy
 App - Render header with Subtitle and Catagory links
   - Subtitle - changes with different page
