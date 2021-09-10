@@ -1,8 +1,15 @@
 import React from 'react';
+import { Route } from "react-router-dom";
+import Buttons from '../Buttons/Buttons'
 
 function ToDrink() {
+  let drink = 'drink'
   return (
-    <div></div>
+    <div>
+      <Route path="/to-drink" excat render={() => 
+          <Buttons thing={drink}/>
+      } />
+    </div>
   );
 }
 

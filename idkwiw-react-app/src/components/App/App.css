@@ -23,9 +23,9 @@ h2 {
   margin: 20px;
 }
 
-.links button {
+button {
   margin: 10px;
-  width: 100px;
+  width: 230px;
   font-family: 'Amatic SC', cursive;
   font-weight: 700;
   font-size: 2em;
@@ -40,4 +40,12 @@ a {
 
 a:hover {
   color: dimgray;
+}
+
+.btnBox {
+
+}
+
+.btnBox button {
+  font-size: 2.5em;
 }

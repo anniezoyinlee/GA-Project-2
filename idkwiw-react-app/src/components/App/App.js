@@ -16,7 +16,7 @@ function App() {
     <div className="container">
       <header>
         <h1>I.D.K.W.I.W</h1>
-        <Route path="/ " excat render={() => 
+        <Route path="/home" excat render={() => 
           <Subtitle cat={home} />
         } />
         <Route path="/to-eat" excat render={() => 
@@ -30,7 +30,7 @@ function App() {
         } />
       </header>
       <main>
-        <Route path="/" excat component={Links} />
+        <Route path="/home" excat component={Links} />
         <Route path="/to-eat" exact component={ToEat} />
         <Route path="/to-drink" exact component={ToDrink} />
         <Route path="/to-do" exact component={ToDo} />
