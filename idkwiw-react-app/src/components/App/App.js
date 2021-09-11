@@ -44,7 +44,6 @@ export default App;
 
 // MVP Goals
 
-// As a player, I want to click on generate button and see a new to eat/to drink/to do suggestion
 // Stretch Goals
 // As a player, I would like to check food by category.
 // As a player, I would like to check drinks by category.
