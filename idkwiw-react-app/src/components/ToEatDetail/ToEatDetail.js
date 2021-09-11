@@ -1,10 +1,10 @@
 import React from 'react';
 
-function ToEatDetail({data}) {
+function ToEatDetail({toEat}) {
   return (
     <div className='detail'>
-      <img alt=''/>
-      <h2>{data}</h2>
+      <img src={toEat.strMealThumb} alt={toEat.strMeal}/>
+      <h2>{toEat.strMeal}</h2>
     </div>
   );
 }
