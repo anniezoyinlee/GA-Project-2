@@ -7,6 +7,7 @@ function ToEat() {
   let food = 'a food'
   let toEatLink = '/to-eat'
   const [toEat, setToEat] = useState([
+    // As a player, I want to see a placeholder food image and food name on the page
     {
       "strMeal": "Apple & Blackberry Crumble",
       "strMealThumb": "https://www.themealdb.com/images/media/meals/xvsurr1511719182.jpg",

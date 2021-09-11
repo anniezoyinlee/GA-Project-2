@@ -7,6 +7,7 @@ function ToDrink() {
   let drink = 'a drink'
   let toDrinkLink = '/to-drink'
   const [toDrink, setToDrink] = useState([
+    // As a player, I want to see a placeholder drink image and drink name on the page
     {
       "strDrink": "Flying Dutchman",
       "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/mwko4q1582482903.jpg",

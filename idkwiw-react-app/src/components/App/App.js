@@ -43,7 +43,7 @@ function App() {
 export default App;
 
 // MVP Goals
-// As a player, I want to see a placeholder image and food/drink names on to eat/to drink page
+
 // As a player, I want to click on generate button and see a new to eat/to drink/to do suggestion
 // Stretch Goals
 // As a player, I would like to check food by category.
