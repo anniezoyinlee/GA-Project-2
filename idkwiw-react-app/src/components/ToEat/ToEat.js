@@ -6,7 +6,7 @@ import ToEatDetail from '../ToEatDetail/ToEatDetail'
 function ToEat() {
   let food = 'food'
   return (
-    <Route path="/to-eat" excat render={() => (
+    <Route path="/to-eat" exact render={() => (
       <div className='page'>
         <ToEatDetail data={food}/>
         <Buttons thing={food}/>

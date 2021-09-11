@@ -5,6 +5,7 @@ import ToDoDetail from '../ToDoDetail/ToDoDetail'
 
 function ToDo() {
   let activity = 'an activity'
+  let toDoLink = '/to-do'
   const [toDo, setToDo] = useState([
     {
     "activity": "Learn React"
@@ -19,7 +20,7 @@ function ToDo() {
   }
 
   return (
-    <Route path="/to-do" excat render={() => (
+    <Route path="/to-do" exact render={() => (
       <div className='page'>
         {toDo.map((activityObj, idx) => {
           return(
@@ -32,6 +33,7 @@ function ToDo() {
         <Buttons 
         generate={getActivity} 
         thing={activity}
+        page={toDoLink}
         />
       </div>
     )} />

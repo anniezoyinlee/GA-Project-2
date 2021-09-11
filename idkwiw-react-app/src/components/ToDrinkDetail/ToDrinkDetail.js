@@ -1,10 +1,10 @@
 import React from 'react';
 
-function ToDrinkDetail({data}) {
+function ToDrinkDetail({toDrink}) {
   return (
     <div className='detail'>
-      <img alt=''/>
-      <h2>{data}</h2>
+      <img src={toDrink.strDrinkThumb} alt={toDrink.strDrink}/>
+      <h2>{toDrink.strDrink}</h2>
     </div>
   );
 }

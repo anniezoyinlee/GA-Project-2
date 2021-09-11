@@ -16,25 +16,25 @@ function App() {
     <div className="container">
       <header>
         <h1>I.D.K.W.I.W</h1>
-        <Route path="/home" excat render={() => 
-          <Subtitle cat={home} />
-        } />
-        <Route path="/to-eat" excat render={() => 
+        <Route path="/to-eat" exact render={() => 
           <Subtitle cat={toEat} />
         } />
-        <Route path="/to-drink" excat render={() => 
+        <Route path="/to-drink" exact render={() => 
           <Subtitle cat={toDrink} />
         } />
-        <Route path="/to-do" excat render={() => 
+        <Route path="/to-do" exact render={() => 
           <Subtitle cat={toDo} />
+        } />
+        <Route path="/" exact render={() => 
+          <Subtitle cat={home} />
         } />
       </header>
       <main>
-        <Route path="/home" excat component={Links} />
         {/* As a player, I want to see a home page with links for 'To Eat', 'To Drink', and 'To Do' */}
         <Route path="/to-eat" exact component={ToEat} />
         <Route path="/to-drink" exact component={ToDrink} />
         <Route path="/to-do" exact component={ToDo} />
+        <Route path="/" exact component={Links} />
       </main>
     </div>
   );
