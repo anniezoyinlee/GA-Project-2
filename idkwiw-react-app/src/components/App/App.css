@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
 
-.container {
+* {
   border: gold 1px solid;
+}
+
+.container {
   text-align: center;
   font-family: 'Amatic SC', cursive;
-  display: grid;
 }
 
 h1 {
@@ -42,31 +44,36 @@ a:hover {
   color: dimgray;
 }
 
-.btnBox {
-
-}
-
-.btnBox button {
-  font-size: 2.5em;
-}
-
-.detail {
-  border: black solid 1px;
+.showBox {
   height: 200px;
   width: 600px;
   margin: 20px auto;
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
-  justify-content: space-around;
 }
 
-.detail img {
+.imageContainer {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.description {
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.showBox img {
   width: 150px;
   height: 150px;
   margin: 20px;
 }
 
-.detail h2 {
+.showBox h2 {
+  font-size: 2.5em;
+}
+
+.btnBox button {
   font-size: 2.5em;
 }
