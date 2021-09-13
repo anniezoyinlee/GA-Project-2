@@ -4,7 +4,7 @@ import Buttons from '../Buttons/Buttons'
 import ToEatDetail from '../ToEatDetail/ToEatDetail'
 
 function ToEat() {
-  let food = 'a food';
+  let food = 'a new food';
   let toEatLink = '/to-eat';
 
   const [toEat, setToEat] = useState([
@@ -29,7 +29,6 @@ function ToEat() {
         {toEat.map((mealObj, idx) => {
           return(
             <ToEatDetail 
-            generate={getFood}
             toEat={mealObj}
             key={idx}
             />

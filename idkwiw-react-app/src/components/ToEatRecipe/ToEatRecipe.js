@@ -7,9 +7,6 @@ function ToEatRecipe({toEat}) {
     <Route path="/to-eat/recipe" render={() => (
       <div className='recipeVideo'>
         <ReactPlayer url={toEat.strYoutube} />
-        <ul>
-          
-        </ul>
       </div>
     )} />
   );
