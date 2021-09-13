@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
 
-* {
-  border: gold 1px solid;
-}
-
 .container {
   text-align: center;
   font-family: 'Amatic SC', cursive;
@@ -16,13 +12,6 @@ h1 {
 
 h2 {
   margin: 0;
-}
-
-.links {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 20px;
 }
 
 button {
@@ -44,6 +33,16 @@ a:hover {
   color: dimgray;
 }
 
+/* Links */
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+/* Page - children: .showbox .btnbox*/
+/* Showbox - children: .imageContainer .description .recipe .recipeBtn*/
 .showBox {
   width: 50%;
   margin: 0 auto;
@@ -90,12 +89,6 @@ a:hover {
   font-size: 2.5em;
 }
 
-.btnBox button {
-  width: auto;
-  font-size: 2.5em;
-  margin: 0 2%;
-}
-
 .toDoShowBox {
   height: 200px;
   width: 600px;
@@ -117,12 +110,34 @@ a:hover {
   margin: 0;
 }
 
+/* Btnbox */
+.btnBox button {
+  width: auto;
+  font-size: 2.5em;
+  margin: 0 2%;
+}
 
 @media only screen and (max-width: 700px) {
   .showBox {
     width: 100%;
     display: flex;
     flex-direction: column;
+  }
+
+  .description {
+    order: 1
+  }
+
+  .imageContainer {
+    order: 2;
+  }
+
+  .recipe {
+    order: 3;
+  }
+
+  .recipeBtn {
+    order: 4;
   }
 
   .showBox img {
@@ -136,7 +151,3 @@ a:hover {
     flex-direction: column;
   }
 }
-
-/* @media only screen and (max-width: 350px) {
-
-} */
