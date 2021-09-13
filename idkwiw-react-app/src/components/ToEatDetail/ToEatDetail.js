@@ -15,12 +15,14 @@ function ToEatDetail({toEat, generate}) {
       </div>
       <div className='recipeBtn'>
         <button onClick={generate}>
-          <Link to={recipe}><h2>Check recipe</h2></Link>
+          <Link to={recipe}><h2>Check Recipe</h2></Link>
         </button>
       </div>
-      <ToEatRecipe 
-        toEat={toEat}
-      />
+      <div className='recipe'>
+          <ToEatRecipe 
+            toEat={toEat}
+          />
+      </div>
     </div>
   );
 }

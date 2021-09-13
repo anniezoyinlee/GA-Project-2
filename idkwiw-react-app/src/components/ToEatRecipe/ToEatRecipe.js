@@ -1,16 +1,15 @@
 import React from 'react';
 import { Route } from "react-router-dom";
-import ReactPlayer from "react-player"
+import ReactPlayer from "react-player/youtube"
 
 function ToEatRecipe({toEat}) {
   return (
     <Route path="/to-eat/recipe" render={() => (
-      <div className='recipe'>
-        <div className='recipeVideo'>
-          <h2>recipe video</h2>
-          <ReactPlayer url={toEat.strYoutube} />
-        </div>
-        
+      <div className='recipeVideo'>
+        <ReactPlayer url={toEat.strYoutube} />
+        <ul>
+          
+        </ul>
       </div>
     )} />
   );
