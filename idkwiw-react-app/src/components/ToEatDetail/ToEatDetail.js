@@ -24,7 +24,7 @@ function ToEatDetail({toEat}) {
           null:
           <button>
             <Link to={recipe}><h2>Learn more about this food</h2></Link>
-           </button>
+          </button>
           }
         </div>
       )} />

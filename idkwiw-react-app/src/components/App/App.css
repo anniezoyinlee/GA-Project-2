@@ -16,10 +16,9 @@ h2 {
 
 button {
   margin: 10px;
-  width: 250px;
   font-family: 'Amatic SC', cursive;
   font-weight: 700;
-  font-size: 2em;
+  font-size: 3em;
   background-color: white;
   border: none;
 }
@@ -29,8 +28,8 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: dimgray;
+a:active {
+  text-shadow: black 1px 1px;
 }
 
 /* Links */
@@ -142,8 +141,12 @@ a:hover {
 
   .showBox img {
     width: 80%;
-    height: 80%;
     margin: 20px;
+  }
+
+  .toDoShowBox {
+    width: 90%;
+    margin: 0 auto;
   }
 
   .btnBox {
