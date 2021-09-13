@@ -65,6 +65,7 @@ a:hover {
 }
 
 .showBox {
+  height: auto;
   margin: 0 auto;
 }
 
@@ -95,17 +96,17 @@ a:hover {
   font-size: 2.5em;
 }
 
-.recipeLink {
+.recipeBtn {
   padding: 0;
   margin: 0;
 }
 
-.recipeLink h2 {
+.recipeBtn h2 {
   padding: 0;
   margin: 0;
 }
 
-.recipeLink button {
+.recipeBtn button {
   font-size: 1em;
   color: pink;
   padding: 0;

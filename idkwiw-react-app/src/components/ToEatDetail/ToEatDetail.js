@@ -1,7 +1,10 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import ToEatRecipe from '../ToEatRecipe/ToEatRecipe';
 
-function ToEatDetail({toEat}) {
+function ToEatDetail({toEat, generate}) {
+  let recipe = '/to-eat/recipe';
+
   return (
     <div className='showBox'>
       <div className='imageContainer'>
@@ -10,11 +13,14 @@ function ToEatDetail({toEat}) {
       <div className='description'>
         <h2>{toEat.strMeal}</h2>
       </div>
-      <div className='recipe'>
-        <ToEatRecipe 
-          toEat={toEat}
-        />
+      <div className='recipeBtn'>
+        <button onClick={generate}>
+          <Link to={recipe}><h2>Check recipe</h2></Link>
+        </button>
       </div>
+      <ToEatRecipe 
+        toEat={toEat}
+      />
     </div>
   );
 }

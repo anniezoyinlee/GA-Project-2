@@ -16,7 +16,7 @@ function App() {
     <div className="container">
       <header>
         <h1>I.D.K.W.I.W</h1>
-        <Route path="/to-eat" exact render={() => 
+        <Route path="/to-eat" render={() => 
           <Subtitle cat={toEat} />
         } />
         <Route path="/to-drink" exact render={() => 
@@ -30,7 +30,7 @@ function App() {
         } />
       </header>
       <main>
-        <Route path="/to-eat" exact component={ToEat} />
+        <Route path="/to-eat" component={ToEat} />
         <Route path="/to-drink" exact component={ToDrink} />
         <Route path="/to-do" exact component={ToDo} />
         <Route path="/" exact component={Links} />

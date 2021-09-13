@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
-import { Route, Link } from "react-router-dom";
+import { Route } from "react-router-dom";
 import Buttons from '../Buttons/Buttons'
 import ToEatDetail from '../ToEatDetail/ToEatDetail'
 
 function ToEat() {
   let food = 'a food';
   let toEatLink = '/to-eat';
-  let recipe = '/to-eat/recipe';
 
   const [toEat, setToEat] = useState([
     // As a player, I want to see a placeholder food image and food name on the page
@@ -25,21 +24,17 @@ function ToEat() {
   }
 
   return (
-    <Route path="/to-eat" exact render={() => (
+    <Route path="/to-eat" render={() => (
       <div className='page'>
         {toEat.map((mealObj, idx) => {
           return(
             <ToEatDetail 
+            generate={getFood}
             toEat={mealObj}
             key={idx}
             />
           )
         })}
-        <div className='recipeLink'>
-          <button onClick={getFood}>
-            <Link to={recipe}><h2>Check recipe</h2></Link>
-          </button>
-        </div>
         <Buttons 
         generate={getFood} 
         thing={food}
