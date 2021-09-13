@@ -19,7 +19,7 @@ function App() {
         <Route path="/to-eat" render={() => 
           <Subtitle cat={toEat} />
         } />
-        <Route path="/to-drink" exact render={() => 
+        <Route path="/to-drink" render={() => 
           <Subtitle cat={toDrink} />
         } />
         <Route path="/to-do" exact render={() => 
@@ -31,7 +31,7 @@ function App() {
       </header>
       <main>
         <Route path="/to-eat" component={ToEat} />
-        <Route path="/to-drink" exact component={ToDrink} />
+        <Route path="/to-drink" component={ToDrink} />
         <Route path="/to-do" exact component={ToDo} />
         <Route path="/" exact component={Links} />
       </main>

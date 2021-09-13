@@ -1,6 +1,10 @@
 import React from 'react';
+import { Link, Route } from "react-router-dom";
+import ToDrinkRecipe from '../ToDrinkRecipe/ToDrinkRecipe';
 
 function ToDrinkDetail({toDrink}) {
+  let recipe = '/to-drink/recipe';
+
   return (
     <div className='showBox'>
       <div className='imageContainer'>
@@ -9,6 +13,18 @@ function ToDrinkDetail({toDrink}) {
       <div className='description'>
         <h2>{toDrink.strDrink}</h2>
       </div>
+      <div className='recipe'>
+          <ToDrinkRecipe 
+            toDrink={toDrink}
+          />
+      </div>
+      <Route path="/to-drink" exact render={() => (
+        <div className='recipeBtn'>
+          <button>
+            <Link to={recipe}><h2>Learn more about this drink</h2></Link>
+          </button>
+        </div>
+      )} />
     </div>
   );
 }

@@ -21,7 +21,7 @@ function ToEatDetail({toEat}) {
       <Route path="/to-eat" exact render={() => (
         <div className='recipeBtn'>
           <button>
-            <Link to={recipe}><h2>Check Recipe</h2></Link>
+            <Link to={recipe}><h2>Learn more about this food</h2></Link>
           </button>
         </div>
       )} />

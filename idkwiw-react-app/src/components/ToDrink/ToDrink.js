@@ -4,13 +4,14 @@ import Buttons from '../Buttons/Buttons'
 import ToDrinkDetail from '../ToDrinkDetail/ToDrinkDetail'
 
 function ToDrink() {
-  let drink = 'a drink'
+  let drink = 'a new drink'
   let toDrinkLink = '/to-drink'
   const [toDrink, setToDrink] = useState([
     // As a player, I want to see a placeholder drink image and drink name on the page
     {
       "strDrink": "Flying Dutchman",
       "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/mwko4q1582482903.jpg",
+      "strVideo": "https://www.youtube.com/watch?v=oH7PP_lV6J8",
     }]);
 
   const getDrink = () => {
@@ -22,7 +23,7 @@ function ToDrink() {
   }
 
   return (
-    <Route path="/to-drink" exact render={() => (
+    <Route path="/to-drink" render={() => (
       <div className='page'>
         {toDrink.map((drinkObj, idx) => {
           return(
