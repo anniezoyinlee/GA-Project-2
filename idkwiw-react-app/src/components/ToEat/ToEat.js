@@ -1,16 +1,19 @@
 import React, { useState } from 'react';
-import { Route } from "react-router-dom";
+import { Route, Link } from "react-router-dom";
 import Buttons from '../Buttons/Buttons'
 import ToEatDetail from '../ToEatDetail/ToEatDetail'
 
 function ToEat() {
-  let food = 'a food'
-  let toEatLink = '/to-eat'
+  let food = 'a food';
+  let toEatLink = '/to-eat';
+  let recipe = '/to-eat/recipe';
+
   const [toEat, setToEat] = useState([
     // As a player, I want to see a placeholder food image and food name on the page
     {
-      "strMeal": "Apple & Blackberry Crumble",
-      "strMealThumb": "https://www.themealdb.com/images/media/meals/xvsurr1511719182.jpg",
+      "strMeal": "Mushroom & Chestnut Rotolo",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/ssyqwr1511451678.jpg",
+      "strYoutube": "https://www.youtube.com/watch?v=GNN7_ZSJ5YE",
     }]);
 
   const getFood = () => {
@@ -32,6 +35,11 @@ function ToEat() {
             />
           )
         })}
+        <div className='recipeLink'>
+          <button onClick={getFood}>
+            <Link to={recipe}><h2>Check recipe</h2></Link>
+          </button>
+        </div>
         <Buttons 
         generate={getFood} 
         thing={food}

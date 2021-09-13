@@ -1,4 +1,5 @@
 import React from 'react';
+import ToEatRecipe from '../ToEatRecipe/ToEatRecipe';
 
 function ToEatDetail({toEat}) {
   return (
@@ -8,6 +9,11 @@ function ToEatDetail({toEat}) {
       </div>
       <div className='description'>
         <h2>{toEat.strMeal}</h2>
+      </div>
+      <div className='recipe'>
+        <ToEatRecipe 
+          toEat={toEat}
+        />
       </div>
     </div>
   );

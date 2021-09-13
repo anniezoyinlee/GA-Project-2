@@ -30,7 +30,6 @@ function App() {
         } />
       </header>
       <main>
-        {/* As a player, I want to see a home page with links for 'To Eat', 'To Drink', and 'To Do' */}
         <Route path="/to-eat" exact component={ToEat} />
         <Route path="/to-drink" exact component={ToDrink} />
         <Route path="/to-do" exact component={ToDo} />
@@ -46,5 +45,4 @@ export default App;
 // Stretch Goals
 // As a player, I would like to check food by category.
 // As a player, I would like to check drinks by category.
-// better UI
-// responsive
+// add receipe
