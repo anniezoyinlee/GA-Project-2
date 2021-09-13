@@ -20,9 +20,12 @@ function ToDrinkDetail({toDrink}) {
       </div>
       <Route path="/to-drink" exact render={() => (
         <div className='recipeBtn'>
+          {toDrink.strVideo === null ? 
+          null:
           <button>
             <Link to={recipe}><h2>Learn more about this drink</h2></Link>
-          </button>
+           </button>
+          }
         </div>
       )} />
     </div>
