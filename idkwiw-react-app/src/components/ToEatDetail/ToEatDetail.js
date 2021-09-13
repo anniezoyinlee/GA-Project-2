@@ -1,8 +1,8 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { Link, Route } from "react-router-dom";
 import ToEatRecipe from '../ToEatRecipe/ToEatRecipe';
 
-function ToEatDetail({toEat, generate}) {
+function ToEatDetail({toEat}) {
   let recipe = '/to-eat/recipe';
 
   return (
@@ -18,11 +18,13 @@ function ToEatDetail({toEat, generate}) {
             toEat={toEat}
           />
       </div>
-      <div className='recipeBtn'>
-        <button>
-          <Link to={recipe}><h2>Check Recipe</h2></Link>
-        </button>
-      </div>
+      <Route path="/to-eat" exact render={() => (
+        <div className='recipeBtn'>
+          <button>
+            <Link to={recipe}><h2>Check Recipe</h2></Link>
+          </button>
+        </div>
+      )} />
     </div>
   );
 }
