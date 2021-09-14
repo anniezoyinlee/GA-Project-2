@@ -115,11 +115,6 @@ a:active {
   margin: 0;
 }
 
-video {
-  width: 70%;
-  background-color: black;
-}
-
 /* Btnbox */
 .btnBox button {
   width: auto;
@@ -165,6 +160,7 @@ video {
 
   .toDoShowBox {
     width: 90%;
+    height: 30vw;
   }
 
   .toDoShowBox h2 {
