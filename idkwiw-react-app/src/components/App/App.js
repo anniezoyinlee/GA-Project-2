@@ -12,10 +12,14 @@ function App() {
   let toEat = 'To Eat'
   let toDrink = 'To Drink'
   let toDo = 'To Do'
+
   return (
     <div className="container">
       <header>
         <h1>I.D.K.W.I.W</h1>
+        {/* 
+        On home page the subtitle shows 'I don't know what I want...
+        On to eat/to drink/to do page it shows 'I don't know what I want to eat/to drink/to do' */}
         <Route path="/to-eat" render={() => 
           <Subtitle cat={toEat} />
         } />
@@ -30,6 +34,7 @@ function App() {
         } />
       </header>
       <main>
+        {/* Setting route to each pages */}
         <Route path="/to-eat" component={ToEat} />
         <Route path="/to-drink" component={ToDrink} />
         <Route path="/to-do" exact component={ToDo} />
@@ -40,9 +45,3 @@ function App() {
 }
 
 export default App;
-
-
-// Stretch Goals
-// As a player, I would like to check food by category.
-// As a player, I would like to check drinks by category.
-// add receipe

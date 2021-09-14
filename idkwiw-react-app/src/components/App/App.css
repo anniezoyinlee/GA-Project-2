@@ -28,6 +28,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-shadow: grey 1px 1px;
+}
+
 a:active {
   text-shadow: black 1px 1px;
 }
