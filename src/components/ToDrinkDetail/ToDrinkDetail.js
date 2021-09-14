@@ -28,7 +28,7 @@ function ToDrinkDetail({toDrink}) {
           {toDrink.strVideo === null || toDrink.strVideo === ""? 
           null:
           <button>
-            <Link to={recipe}><h2>Learn more about this drink</h2></Link>
+            <Link to={recipe}>Learn more about this drink</Link>
           </button>
           }
         </div>

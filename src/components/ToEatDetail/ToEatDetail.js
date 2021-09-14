@@ -28,7 +28,7 @@ function ToEatDetail({toEat}) {
           {toEat.strYoutube === null || toEat.strYoutube === ""? 
           null:
           <button>
-            <Link to={recipe}><h2>Learn more about this food</h2></Link>
+            <Link to={recipe}>Learn more about this food</Link>
           </button>
           }
         </div>

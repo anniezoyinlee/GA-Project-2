@@ -1,26 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
 
+* {
+  border: gold 1px solid;
+}
+
 .container {
   text-align: center;
   font-family: 'Amatic SC', cursive;
 }
 
 h1 {
-  font-size: 5em;
-  margin: 0;
+  font-size: 10vw;
+  margin: 5% 0 0 0;
 }
 
 h2 {
+  font-size: 4vw;
   margin: 0;
 }
 
 button {
-  margin: 10px;
-  font-family: 'Amatic SC', cursive;
-  font-weight: 700;
-  font-size: 3em;
+  margin: 2%;
   background-color: white;
   border: none;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
+  font-size: 7vw;
 }
 
 a {
@@ -41,19 +46,19 @@ a:active {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 20px;
+  margin: 2%;
 }
 
 /* Page - children: .showbox .btnbox*/
 /* Showbox - children: .imageContainer .description .recipe .recipeBtn*/
 .showBox {
-  width: 50%;
-  margin: 0 auto;
   display: grid;
   grid-template-rows: auto auto auto;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-content: center;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .imageContainer {
@@ -83,44 +88,54 @@ a:active {
 }
 
 .showBox img {
-  width: 150px;
-  height: 150px;
-  margin: 20px;
+  width: 80%;
+  height: 80%;
+  margin: 2%;
 }
 
 .showBox h2 {
-  font-size: 2.5em;
+  font-size: 5vw;
 }
 
 .toDoShowBox {
-  height: 200px;
-  width: 600px;
-  margin: 20px auto;
+  margin: 10% auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .toDoShowBox h2 {
-  font-size: 2.5em;
+  font-size: 5vw;
 }
 
 .recipeBtn button {
   width: auto;
-  font-size: 0.6em;
-  color: pink;
+  font-size: 4vw;
   padding: 0;
   margin: 0;
+}
+
+video {
+  width: 70%;
+  background-color: black;
 }
 
 /* Btnbox */
 .btnBox button {
   width: auto;
-  font-size: 2.5em;
-  margin: 0 2%;
+  font-size: 5vw;
+  margin: 2%;
 }
 
 @media only screen and (max-width: 700px) {
+  h1 {
+    font-size: 15vw;
+  }
+  
+  h2 {
+    font-size: 6vw;
+  }
+
   .showBox {
     width: 100%;
     display: flex;
@@ -143,18 +158,31 @@ a:active {
     order: 4;
   }
 
-  .showBox img {
-    width: 80%;
-    margin: 20px;
+  .showBox h2 {
+    font-size: 9vw;
+    margin: 2% auto;
   }
 
   .toDoShowBox {
     width: 90%;
-    margin: 0 auto;
+  }
+
+  .toDoShowBox h2 {
+    font-size: 9vw;
+  }
+
+  .recipeBtn button {
+    font-size: 5vw;
   }
 
   .btnBox {
     display: flex;
     flex-direction: column;
+    margin: 3%;
+  }
+
+  .btnBox button {
+    font-size: 6vw;
+    margin: 1%;
   }
 }

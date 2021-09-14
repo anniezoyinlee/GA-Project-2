@@ -6,7 +6,7 @@ function ToEatRecipe({toEat}) {
   return (
     <Route path="/to-eat/recipe" render={() => (
       <div className='recipeVideo'>
-        <ReactPlayer url={toEat.strYoutube} />
+        <ReactPlayer className='react-player' url={toEat.strYoutube} />
       </div>
     )} />
   );
