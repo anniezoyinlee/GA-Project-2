@@ -17,6 +17,9 @@ function ToEat() {
       "strYoutube": "https://www.youtube.com/watch?v=GNN7_ZSJ5YE",
     }
   ]);
+  
+  // Each request must handle errors by displaying a message to the user and must not log the error to the console.
+  const [err, setErr] = useState(false);
 
   // function to get api
   const getFood = () => {
@@ -25,6 +28,9 @@ function ToEat() {
     .then((json) => {
       setToEat(json.meals)
     })
+    .catch(() => {
+       setErr(true);
+    });
   }
 
   return (
@@ -33,8 +39,9 @@ function ToEat() {
         {toEat.map((mealObj, idx) => {
           return(
             <ToEatDetail 
-            toEat={mealObj}
-            key={idx}
+              err={err}
+              toEat={mealObj}
+              key={idx}
             />
           )
         })}

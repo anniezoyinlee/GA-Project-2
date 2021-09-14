@@ -16,6 +16,9 @@ function ToDo() {
     }
   ]);
 
+  // Each request must handle errors by displaying a message to the user and must not log the error to the console.
+  const [err, setErr] = useState(false);
+
   // function to get api
   const getActivity = () => {
     fetch('https://www.boredapi.com/api/activity')
@@ -23,6 +26,9 @@ function ToDo() {
     .then((json) => {
       setToDo([json])
     })
+    .catch(() => {
+      setErr(true);
+    });
   }
 
   return (
@@ -31,6 +37,7 @@ function ToDo() {
         {toDo.map((activityObj, idx) => {
           return(
             <ToDoDetail 
+            err={err}
             toDo={activityObj}
             key={idx}
             />

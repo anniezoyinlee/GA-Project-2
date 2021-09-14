@@ -18,6 +18,9 @@ function ToDrink() {
     }
   ]);
 
+  // Each request must handle errors by displaying a message to the user and must not log the error to the console.
+  const [err, setErr] = useState(false);
+
   // function to get api
   const getDrink = () => {
     fetch('https://www.thecocktaildb.com/api/json/v1/1/random.php')
@@ -25,6 +28,9 @@ function ToDrink() {
     .then((json) => {
       setToDrink(json.drinks)
     })
+    .catch(() => {
+      setErr(true);
+   });
   }
 
   return (
@@ -33,6 +39,7 @@ function ToDrink() {
         {toDrink.map((drinkObj, idx) => {
           return(
             <ToDrinkDetail 
+            err={err}
             toDrink={drinkObj}
             key={idx}
             />

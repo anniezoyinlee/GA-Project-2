@@ -1,6 +1,14 @@
 import React from "react";
 
-function ToDoDetail({toDo}) {
+const ErrorElement = () => {
+  return <div className='error'><h2>Content Not Found :(</h2></div>
+}
+
+function ToDoDetail({toDo, err}) {
+  if (err) {
+    return <ErrorElement />
+  }
+  
   return (
     <div className='toDoShowBox'>
       {/* show placeholder content from ToDo component*/}
