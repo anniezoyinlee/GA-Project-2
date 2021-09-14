@@ -55,7 +55,7 @@ a:active {
   font-size: 6vw;
 }
 
-/* Page - children: .showbox .btnbox*/
+/* Page - children: .showbox/.toDoShowBox .btnbox*/
 /* Showbox - children: .imageContainer .description .recipe .recipeBtn*/
 .showBox {
   display: grid;
@@ -135,10 +135,6 @@ a:active {
 
 /* vertical view in smaller screens */
 @media only screen and (max-width: 700px) {
-  .container {
-    width: 100%;
-  }
-
   h1 {
     font-size: 15vw;
   }
