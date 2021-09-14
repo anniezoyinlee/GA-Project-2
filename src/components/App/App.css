@@ -133,6 +133,14 @@ a:active {
     font-size: 6vw;
   }
 
+  .links {
+    margin: 8% auto;
+  }
+
+  .links a {
+    font-size: 12vw;
+  }
+
   .showBox {
     width: 100%;
     display: flex;
