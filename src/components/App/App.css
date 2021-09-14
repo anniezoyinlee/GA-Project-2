@@ -5,13 +5,15 @@
   font-family: 'Amatic SC', cursive;
 }
 
+/* I.D.K.W.I.W */
 h1 {
-  font-size: 10vw;
-  margin: 5% 0 0 0;
+  font-size: 8vw;
+  margin: 1% 0 0 0;
 }
 
+/* subtitle */
 h2 {
-  font-size: 4vw;
+  font-size: 3.5vw;
   margin: 0;
 }
 
@@ -45,6 +47,14 @@ a:active {
   margin: 2%;
 }
 
+.links button {
+  margin: 0;
+}
+
+.links a {
+  font-size: 6vw;
+}
+
 /* Page - children: .showbox .btnbox*/
 /* Showbox - children: .imageContainer .description .recipe .recipeBtn*/
 .showBox {
@@ -53,8 +63,29 @@ a:active {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-content: center;
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
+}
+
+.showBox img {
+  width: 80%;
+  height: 80%;
+  margin: 2%;
+}
+
+.showBox h2 {
+  font-size: 4.5vw;
+}
+
+.toDoShowBox {
+  margin: 10% auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toDoShowBox h2 {
+  font-size: 5vw;
 }
 
 .imageContainer {
@@ -83,48 +114,31 @@ a:active {
   margin: 0;
 }
 
-.showBox img {
-  width: 80%;
-  height: 80%;
-  margin: 2%;
-}
-
-.showBox h2 {
-  font-size: 5vw;
-}
-
-.toDoShowBox {
-  margin: 10% auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.toDoShowBox h2 {
-  font-size: 5vw;
-}
-
 .recipeBtn button {
   width: auto;
-  font-size: 4vw;
+  font-size: 3.5vw;
   padding: 0;
   margin: 0;
 }
 
 .recipeVideo {
-  width: 64vw;
-  height: 36vw;
+  width: 56vw;
+  height: 30vw;
 }
 
 /* Btnbox */
 .btnBox button {
   width: auto;
   font-size: 5vw;
-  margin: 2%;
+  margin: 1%;
 }
 
 /* vertical view in smaller screens */
 @media only screen and (max-width: 700px) {
+  .container {
+    width: 100%;
+  }
+
   h1 {
     font-size: 15vw;
   }
@@ -148,7 +162,7 @@ a:active {
   }
 
   .description {
-    order: 1
+    order: 1;
   }
 
   .imageContainer {
