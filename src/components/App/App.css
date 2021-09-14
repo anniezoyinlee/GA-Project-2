@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
 
-* {
-  border: gold 1px solid;
-}
-
 .container {
   text-align: center;
   font-family: 'Amatic SC', cursive;
@@ -115,6 +111,11 @@ a:active {
   margin: 0;
 }
 
+.recipeVideo {
+  width: 64vw;
+  height: 36vw;
+}
+
 /* Btnbox */
 .btnBox button {
   width: auto;
@@ -122,6 +123,7 @@ a:active {
   margin: 2%;
 }
 
+/* vertical view in smaller screens */
 @media only screen and (max-width: 700px) {
   h1 {
     font-size: 15vw;
@@ -169,6 +171,11 @@ a:active {
 
   .recipeBtn button {
     font-size: 5vw;
+  }
+
+  .recipeVideo {
+    width: 80vw;
+    height: 48vw;
   }
 
   .btnBox {
