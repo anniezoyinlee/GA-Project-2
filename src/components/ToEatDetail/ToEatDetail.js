@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, Route } from "react-router-dom";
+import { Link, Route } from 'react-router-dom';
 import ToEatRecipe from '../ToEatRecipe/ToEatRecipe';
 
 const ErrorElement = () => {
@@ -29,10 +29,10 @@ function ToEatDetail({toEat, err}) {
         />
       </div>
       
-      <Route path="/to-eat" exact render={() => (
+      <Route path='/to-eat' exact render={() => (
         <div className='recipeBtn'>
           {/* only show recipe button if the video link form API is available */}
-          {toEat.strYoutube === null || toEat.strYoutube === ""? 
+          {toEat.strYoutube === null || toEat.strYoutube === ''? 
           null:
           <button>
             <Link to={recipe}>Learn more about this food</Link>

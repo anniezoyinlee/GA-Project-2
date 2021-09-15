@@ -1,18 +1,18 @@
 import React, { useState } from 'react';
-import { Route } from "react-router-dom";
-import Buttons from '../Buttons/Buttons'
-import ToDoDetail from '../ToDoDetail/ToDoDetail'
+import { Route } from 'react-router-dom';
+import Buttons from '../Buttons/Buttons';
+import ToDoDetail from '../ToDoDetail/ToDoDetail';
 
 function ToDo() {
   // showing on the generate button/prop: thing in Buttons component
-  let activity = 'activity'
+  let activity = 'activity';
   // prop: page in Buttons component
-  let toDoLink = '/to-do'
+  let toDoLink = '/to-do';
 
   const [toDo, setToDo] = useState([
     // As a player, I want to see a placeholder activity name on to do page
     {
-    "activity": "Learn React"
+    'activity': 'Learn React'
     }
   ]);
 
@@ -24,7 +24,7 @@ function ToDo() {
     fetch('https://www.boredapi.com/api/activity')
     .then((res) => res.json())
     .then((json) => {
-      setToDo([json])
+      setToDo([json]);
     })
     .catch(() => {
       setErr(true);
@@ -32,7 +32,7 @@ function ToDo() {
   }
 
   return (
-    <Route path="/to-do" exact render={() => (
+    <Route path='/to-do' exact render={() => (
       <div className='page'>
         {toDo.map((activityObj, idx) => {
           return(
