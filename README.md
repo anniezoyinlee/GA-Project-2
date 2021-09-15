@@ -42,11 +42,7 @@ git remote -v
 5. Pull the latest changes from upstream into your local repository
 git pull upstream master/main
 
-6. Download all the packages
-npm install react-router-dom
-npm install react-player/youtube
-
-7. Open in local host or heroku
+6. Open the app in local host or heroku
 npm start
 heroku open
 ```
