@@ -99,6 +99,7 @@ Reference: https://www.dataschool.io/how-to-contribute-on-github/
 #### The Meal DB
 [The Meal DB](https://www.themealdb.com/api.php)
 [API Json](https://www.themealdb.com/api/json/v1/1/random.php)
+<!-- 
 ```json
 {
   "meals": [
@@ -160,9 +161,11 @@ Reference: https://www.dataschool.io/how-to-contribute-on-github/
   ]
 }
 ```
+-->
 #### The Cocktail DB
 [The Cocktail DB](https://www.thecocktaildb.com/api.php)
 [API Json](https://www.thecocktaildb.com/api/json/v1/1/random.php)
+<!-- 
 ```json
 {
   "drinks": [
@@ -222,8 +225,10 @@ Reference: https://www.dataschool.io/how-to-contribute-on-github/
   ]
 }
 ```
+-->
 #### Bored API
 [Bored API](https://www.boredapi.com/documentation)
+<!-- 
 ```json
 {
   "activity": "Donate blood at a local blood center",
@@ -235,6 +240,7 @@ Reference: https://www.dataschool.io/how-to-contribute-on-github/
   "accessibility": 0.35
 }
 ```
+-->
 <!-- 
 ## Component Hierarchy
 App - Render header with Subtitle and Catagory links
