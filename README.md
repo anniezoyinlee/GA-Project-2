@@ -10,9 +10,9 @@ My app is called IDKWIW, it's for people who don't know what they want. On the h
 
 ## App View
 Home page
-![image](https://imgur.com/dG7CYts)
+![image](https://imgur.com/dG7CYts.png)
 To Food page
-![image](https://imgur.com/Us4RqOZ)
+![image](https://imgur.com/Us4RqOZ.png)
 
 ## Technologies Used
 > Css
