@@ -75,7 +75,7 @@ https://github.com/anniezoyinlee/GA-Project2-idkwiw
 - Leave comments for identifing bugs, and proposing improvements
 - Click on green Submit New Issue Button
 ```
-* reference: https://www.dataschool.io/how-to-contribute-on-github/
+Reference: https://www.dataschool.io/how-to-contribute-on-github/
 
 ## API Used
 #### The Meal DB
