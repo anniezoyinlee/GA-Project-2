@@ -3,7 +3,7 @@
 ## Project Name
 IDKWIW (I don't know what I want)
 
-[IDKWIW](https://idkwiw-react.herokuapp.com/)
+[Click to check the app!](https://idkwiw-react.herokuapp.com/)
 
 ## Project Description
 My app is called IDKWIW, it's for people who don't know what they want. On the home page, there are three links for 'To Eat' 'To Drink', and 'To Do', when the user clicks on one of the links they would go to a page to generate the food/drink/activity through APIs. Perhaps this app can give users ideas while they don't know what they want.
@@ -15,49 +15,68 @@ To Food page
 ![image](https://imgur.com/Us4RqOZ.png)
 
 ## Technologies Used
-> Css
-> Javascript
-> React
+* Css
+* Javascript
+* React
 
 ## Getting Started/Installation Instructions
-```
+
 1. Fork the repository
+Go to my repository and click Fork from the top right of the page
 https://github.com/anniezoyinlee/GA-Project2-idkwiw
 
-2. Clone the fork 
+2. Clone the fork, run below in your command line
+```
 git clone git@github.com:YOUR_USERNAME/GA-Project2-idkwiw.git
+```
 
-3. Check that your fork is the "origin" remote
+3. Check that your fork is the "origin" remote, run below in your command line
+```
 git remote -v 
+```
 
-If you don't see an "origin" remote, run
+If you don't see an "origin" remote, run below in your command line
+```
 git remote add origin git@github.com:YOUR_USERNAME/GA-Project2-idkwiw.git
+```
 
-4. Add the project repository as the "upstream" remote
+4. Add the project repository as the "upstream" remote, run below in your command line
+```
 git remote add upstream https://github.com/anniezoyinlee/GA-Project2-idkwiw.git
+```
 
-check if you have two remotes form "origin" and "upstream"
+check if you have two remotes form "origin" and "upstream", run below in your command line
+```
 git remote -v
+```
 
-5. Pull the latest changes from upstream into your local repository
+5. Pull the latest changes from upstream into your local repository, run below in your command line
+```
 git pull upstream master/main
+```
 
-6. Open the app in local host or heroku
+6. Open the app in local host or heroku, run below in your command line
+```
 npm start
 heroku open
 ```
 
 ## Contribution Guidelines: 
+1. Create a new branch, run below in your command line
 ```
-1. Create a new branch
 git checkout -b BRANCH_NAME
+```
 
-- Make changes in your local repository and commit the changes
+- Make changes in your local repository and commit the changes, run below in your command line
+```
 git add -A/add .
 git commit -m "DESCRIPTION OF CHANGES"
+```
 
 3. Push your changes to your fork
+```
 git push origin BRANCH_NAME
+```
 
 4. Pull request
 - Return to your fork on GitHub, and refresh the page.
@@ -68,13 +87,12 @@ git push origin BRANCH_NAME
 Or 
 
 Start an issue
-- Go to my repository
-https://github.com/anniezoyinlee/GA-Project2-idkwiw
-- click on Issues tab
+- Go to my repository https://github.com/anniezoyinlee/GA-Project2-idkwiw
+- Click on Issues tab
 - Click on green New Issue Button
 - Leave comments for identifing bugs, and proposing improvements
 - Click on green Submit New Issue Button
-```
+
 Reference: https://www.dataschool.io/how-to-contribute-on-github/
 
 ## API Used
